@@ -32,4 +32,5 @@ public class GameService {
 		//toList para formar a lista
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
 	}
+	
 }
